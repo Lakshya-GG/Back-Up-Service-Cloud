@@ -1,0 +1,6 @@
+google-api-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+watchdog==2.1.3

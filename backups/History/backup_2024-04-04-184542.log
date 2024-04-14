@@ -1,0 +1,8 @@
+backup_2024-04-04-184542
+{"timestamp": "2024-04-04 18:44:54", "action": "created", "event_name": "created", "src_path": "./myDir\\file1.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:44:59", "action": "created", "event_name": "created", "src_path": "./myDir\\file2.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:45:03", "action": "modified", "event_name": "modified", "src_path": "./myDir\\file2.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:45:03", "action": "modified", "event_name": "modified", "src_path": "./myDir\\file2.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:45:07", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder1", "is_directory": true}
+{"timestamp": "2024-04-04 18:45:13", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder1\\File3.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:45:13", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1", "is_directory": true}

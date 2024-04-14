@@ -1,0 +1,10 @@
+backup_2024-04-04-190026
+{"timestamp": "2024-04-04 18:59:14", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder2", "is_directory": true}
+{"timestamp": "2024-04-04 18:59:18", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder1\\Folder3", "is_directory": true}
+{"timestamp": "2024-04-04 18:59:23", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder1\\Folder3\\File4.txt", "is_directory": false}
+{"timestamp": "2024-04-04 18:59:23", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1\\Folder3", "is_directory": true}
+{"timestamp": "2024-04-04 18:59:23", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1", "is_directory": true}
+{"timestamp": "2024-04-04 18:59:37", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder1\\Folder3\\File5.py", "is_directory": false}
+{"timestamp": "2024-04-04 18:59:37", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1\\Folder3", "is_directory": true}
+{"timestamp": "2024-04-04 18:59:45", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1\\Folder3\\File5.py", "is_directory": false}
+{"timestamp": "2024-04-04 18:59:45", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder1\\Folder3\\File5.py", "is_directory": false}

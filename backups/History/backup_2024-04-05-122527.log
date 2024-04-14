@@ -1,0 +1,5 @@
+backup_2024-04-05-122527
+{"timestamp": "2024-04-05 12:24:44", "action": "created", "event_name": "created", "src_path": "./myDir\\file66.txt", "is_directory": false}
+{"timestamp": "2024-04-05 12:24:57", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder3", "is_directory": true}
+{"timestamp": "2024-04-05 12:25:05", "action": "created", "event_name": "created", "src_path": "./myDir\\Folder3\\FIlr.py", "is_directory": false}
+{"timestamp": "2024-04-05 12:25:06", "action": "modified", "event_name": "modified", "src_path": "./myDir\\Folder3", "is_directory": true}

@@ -1,0 +1,32 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: scheduler
+spec:
+  schedule: "* * * * *" # Cron expression (runs every 5 minutes)
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: cc
+              image: alterhoodie/momonish:latest
+              command: ["python"]
+              args: ["backup_script.py"]
+              volumeMounts:
+                - mountPath: /data
+                  name: data-volume
+                - mountPath: /app/secrets
+                  name: google-drive-secret-volume
+          restartPolicy: OnFailure
+          imagePullSecrets:
+            - name: my-registry-secret
+          volumes:
+            - name: data-volume
+              persistentVolumeClaim:
+                claimName: my-pvc
+            - name: google-drive-secret-volume
+              secret:
+                secretName: google-drive-secrets
+            # Add additional container settings as needed
+  # Optional: set concurrencyPolicy, successfulJobsHistoryLimit, failedJobsHistoryLimit, etc.
